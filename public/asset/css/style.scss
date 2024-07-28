@@ -1,0 +1,221 @@
+/* [Master Stylesheet] */
+
+/* ----------------------------------------------------------
+    :: Template 
+    :: Author: SMT
+    :: Author URL:www.smt.sa 
+    :: Version: 1.0
+    :: Created: 02 2022
+    :: Last Updated: 02 2022
+    ---------------------------------------------------------- */
+
+/* -------------------------------------------------
+    ============ PLACE YOUR CUSTOM CSS HERE ============
+    ------------------------------------------------- */
+
+/*start my style */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cairo', sans-serif !important;
+    overflow-x: hidden;
+    position: relative;
+    direction: rtl;
+    background-image:url('../../asset/images/login-bg.png');
+    background-size: cover;
+    background-repeat: repeat-y;
+    
+}
+
+
+a {
+    text-decoration: none !important;
+}
+
+.mt-5 {
+    margin-top: 5px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.mt-60 {
+    margin-top: 60px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+.section-padding {
+    padding: 60px 0;
+}
+
+.transition {
+    transition: all ease-in-out 0.3s;
+}
+
+// start landing
+.lang {
+    position: absolute;
+    top: 10px;
+    button {
+        width: unset !important;
+        line-height: unset !important;
+    }
+    .dropdown-item {
+        text-align: right;
+    }
+}
+
+.login {
+    display: flex;
+    border-image: linear-gradient(#BA8C54, #00675c) 180;
+    border-width: 8px;
+    border-style: solid;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 80px 0;
+    img.logo {
+        width: 100px;
+    }
+    h2 {
+        margin-top: 15px;
+        color: #707070;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 10px;
+
+    }
+    h4 {
+        font-size: 18px;
+        color: #BA8C54;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    label {
+        display: block;
+        margin-bottom: 5px;
+        color: #000;
+    }
+    input {
+        border: 2px solid #E2E2E2;
+        border-radius: 5px;
+        padding: 7px 10px;
+        margin-bottom: 15px;
+        width: 400px;
+        outline-color: #BA8C54;
+        display: block;
+        direction: rtl;
+
+    }
+    select {
+        border: 2px solid #E2E2E2;
+        border-radius: 5px;
+        padding: 3px 10px;
+        margin-bottom: 15px;
+        width: 400px;
+        outline-color: #BA8C54;
+        display: block;
+
+    }
+    input::placeholder {
+        color: rgba(119, 119, 119, 0.317);
+    }
+    button {
+        background: #00675c;
+        padding: 8px 10px;
+        width: 400px;
+        border-radius: 5px;
+        color: #fff;
+        border: 2px solid #00675c;
+        margin-top: 20px;
+        @extend .transition;
+        &:hover {
+            background: transparent;
+            color: #00675c;
+
+        }
+
+    }
+    h5 {
+        font-size: 16px;
+        margin-top: 30px;
+        display: block;
+        color: #777;
+        a {
+            color: #BA8C54;
+            border-bottom: 1px solid #BA8C54;
+        }
+    }
+}
+// end landing
+
+/* Responsive */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    input, select, button {
+        width: 300px !important;
+    }    
+
+}
+
+/* galaxy S5 */
+@media only screen and (min-width: 359px) and (max-width: 361px) {
+
+}
+
+/* iphone x, 6/7/8 */
+@media only screen and (min-width: 375px) and (max-width: 380px) {
+
+}
+
+/* iphone 6/7/8 plus */
+@media only screen and (min-width: 410px) and (max-width: 416px) {
+ 
+}
+
+/* ipad */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+}
+
+/* ipad pro  */
+@media only screen and (min-width: 1024px) and (max-width:1030px) {
+    
+}
+
+/* 17 inch */
+@media only screen and (min-width: 1920px) and (max-width: 2500px) {
+    
+}

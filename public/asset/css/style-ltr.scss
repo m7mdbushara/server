@@ -1,0 +1,23 @@
+body {
+    direction: ltr;
+}
+.login input {
+    direction: ltr;
+}
+.btn {
+    height: 40px;
+    line-height: 40px;
+}
+.lang {
+    position: absolute;
+    top: 10px;
+    button {
+        width: unset !important;
+        padding-top: 5px !important;
+        line-height: unset !important;
+    }
+    .dropdown-item {
+        text-align: left;
+    }
+}
+

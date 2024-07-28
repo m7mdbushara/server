@@ -1,0 +1,96 @@
+body {
+  background-image: url("../../asset/images/login-bg.png");
+  background-size: cover;
+  background-repeat: repeat-y;
+}
+
+.btn {
+  height: 40px;
+}
+
+@media (min-width: 992px) {
+  .header-fixed.toolbar-fixed .wrapper {
+    padding-top: calc(25px + var(--kt-toolbar-height));
+  }
+}
+table .btn {
+  padding: 5px 20px !important;
+  height: 32px;
+  margin-top: -5px;
+}
+
+.form-control {
+  margin-bottom: 20px;
+}
+
+hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background: #a2a2cc;
+}
+
+.card-label.fw-bolder.fs-3, .card-label.fw-bolder.fs-4 {
+  margin-bottom: 20px !important;
+  display: block;
+  color: #BA8C53;
+  font-size: 18px !important;
+}
+
+.aside.aside-dark, .aside-menu {
+  background: #00655C;
+}
+
+.aside.aside-dark .aside-logo {
+  background: #003d38;
+}
+
+.aside-dark .menu .menu-item .menu-link .menu-title, .aside-dark .menu .menu-item .menu-link .menu-icon, .aside-dark .menu .menu-item .menu-link .menu-icon .svg-icon, .aside-dark .menu .menu-item .menu-link .menu-icon i {
+  color: #e4a85e;
+}
+
+.aside.aside-dark .btn-custom {
+  color: #fff;
+  background-color: #323232;
+}
+
+.aside-dark .menu .menu-item.hover:not(.here) > .menu-link:not(.disabled):not(.active):not(.here), .aside-dark .menu .menu-item:not(.here) .menu-link:hover:not(.disabled):not(.active):not(.here) {
+  background: #003d38;
+  color: #fff;
+}
+
+.table > thead {
+  vertical-align: bottom;
+  background: #013d38;
+}
+
+.table > thead th {
+  color: #fff;
+}
+
+.card .card-header .card-title .card-label, .card .card-header .card-title, .card .card-header .card-title .card-label, .card-title h2 {
+  color: #BA8C53;
+}
+
+.table td:first-child, .table th:first-child, .table tr:first-child {
+  padding-right: 10px;
+}
+
+.table td:last-child, .table th:last-child, .table tr:last-child {
+  padding-left: 10px;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+.aside-dark .menu .menu-item.hover:not(.here) > .menu-link:not(.disabled):not(.active):not(.here) .menu-icon, .aside-dark .menu .menu-item.hover:not(.here) > .menu-link:not(.disabled):not(.active):not(.here) .menu-icon .svg-icon, .aside-dark .menu .menu-item.hover:not(.here) > .menu-link:not(.disabled):not(.active):not(.here) .menu-icon i, .aside-dark .menu .menu-item:not(.here) .menu-link:hover:not(.disabled):not(.active):not(.here) .menu-icon, .aside-dark .menu .menu-item:not(.here) .menu-link:hover:not(.disabled):not(.active):not(.here) .menu-icon .svg-icon, .aside-dark .menu .menu-item:not(.here) .menu-link:hover:not(.disabled):not(.active):not(.here) .menu-icon i, .btn-check:active + .btn.btn-active-color-primary, .btn-check:checked + .btn.btn-active-color-primary, .btn.btn-active-color-primary.active, .btn.btn-active-color-primary.show, .btn.btn-active-color-primary:active:not(.btn-active), .btn.btn-active-color-primary:focus:not(.btn-active), .btn.btn-active-color-primary:hover:not(.btn-active), .show > .btn.btn-active-color-primary {
+  color: #BA8C53;
+}
+
+.svg-icon.svg-icon-4 svg {
+  transform: rotateY(180deg);
+}
+
+.btn-check:active + .btn.btn-active-color-primary .svg-icon, .btn-check:active + .btn.btn-active-color-primary i, .btn-check:checked + .btn.btn-active-color-primary .svg-icon, .btn-check:checked + .btn.btn-active-color-primary i, .btn.btn-active-color-primary.active .svg-icon, .btn.btn-active-color-primary.active i, .btn.btn-active-color-primary.show .svg-icon, .btn.btn-active-color-primary.show i, .btn.btn-active-color-primary:active:not(.btn-active) .svg-icon, .btn.btn-active-color-primary:active:not(.btn-active) i, .btn.btn-active-color-primary:focus:not(.btn-active) .svg-icon, .btn.btn-active-color-primary:focus:not(.btn-active) i, .btn.btn-active-color-primary:hover:not(.btn-active) .svg-icon, .btn.btn-active-color-primary:hover:not(.btn-active) i, .show > .btn.btn-active-color-primary .svg-icon, .show > .btn.btn-active-color-primary i {
+  color: #ba8c53;
+}/*# sourceMappingURL=new-style.css.map */
